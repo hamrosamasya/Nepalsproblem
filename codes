@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="ne">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>नागरिक आवाज - Nepal Citizen Problems</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Noto Sans', Arial, sans-serif;
+            background-color: #f5f5f5;
+        }
+        
+        header {
+            background-color: #DC143C;
+            color: white;
+            padding: 30px 20px;
+            text-align: center;
+        }
+        
+        header h1 {
+            font-size: 42px;
+            margin-bottom: 10px;
+        }
+        
+        header p {
+            font-size: 20px;
+        }
+        
+        nav {
+            background-color: #003893;
+            padding: 15px;
+            text-align: center;
+        }
+        
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 12px 25px;
+            margin: 5px;
+            display: inline-block;
+            border-radius: 5px;
+        }
+        
+        nav a:hover {
+            background-color: #DC143C;
+        }
+        
+        main {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        .btn {
+            background-color: #DC143C;
+            color: white;
+            padding: 15px 30px;
+            text-decoration: none;
+            font-size: 18px;
+            border-radius: 5px;
+            display: inline-block;
+            margin: 10px;
+        }
+        
+        .btn:hover {
+            background-color: #003893;
+        }
+        
+        .card {
+            background-color: white;
+            padding: 25px;
+            margin: 20px 0;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            margin-top: 50px;
+        }
+        
+        .form-container {
+            background-color: white;
+            padding: 30px;
+            border-radius: 10px;
+            margin: 20px 0;
+        }
+        
+        iframe {
+            width: 100%;
+            height: 700px;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>🇳🇵 नागरिक आवाज</h1>
+        <h2>Citizen Voice - Nepal</h2>
+        <p>सबै नेपालीहरूको आवाज एकसाथ | Together for Nepal</p>
+    </header>
+    
+    <nav>
+        <a href="#home">गृहपृष्ठ | Home</a>
+        <a href="#report">समस्या रिपोर्ट गर्नुहोस्</a>
+        <a href="#view">हेर्नुहोस् | View All</a>
+        <a href="#about">हाम्रो बारे | About</a>
+    </nav>
+    
+    <main>
+        <section id="home" class="card">
+            <h2>🏠 स्वागत छ | Welcome</h2>
+            <p>यस वेबसाइटमा नेपाली नागरिकहरूले आफ्नो समस्या रिपोर्ट गर्न सक्नुहुन्छ।</p>
+            <p>Through this website, Nepali citizens can report their problems.</p>
+            <br>
+            <p><strong>यो वेबसाइट नि:शुल्क छ | This website is FREE</strong></p>
+        </section>
+        
+        <section id="report" class="form-container">
+            <h2>📝 समस्या रिपोर्ट गर्नुहोस् | Report a Problem</h2>
+            <p>तलको फारम भर्नुहोस्:</p>
+            <br>
+            <iframe src="https://docs.google.com/forms/d/e/1SgJxICSpxgJmybAYwLXdSSmM4AoYHefsfnScCMiSaWQ/viewform"></iframe>
+        </section>
+        
+        <section id="view" class="form-container">
+            <h2>🗺️ हालसम्मका समस्याहरू | View All Problems</h2>
+            <p>सबै रिपोर्ट गरिएका समस्याहरू हेर्नुहोस्:</p>
+            <br>
+            <a href="https://docs.google.com/spreadsheets/d/1FDeIo6UriYrXWNfBR3IlbsCGKGEgYL2XHCg_cfk8oMM/edit" target="_blank" class="btn">
+                📊 सबै समस्याहरू हेर्नुहोस् | View All Problems
+            </a>
+        </section>
+        
+        <section class="card">
+            <h2>📈 तथ्याङ्क | Statistics</h2>
+            <p>जम्मा रिपोर्ट गरिएका समस्याहरू: <strong>View in spreadsheet above</strong></p>
+        </section>
+        
+        <section id="about" class="card">
+            <h2>ℹ️ हाम्रो बारे | About Us</h2>
+            <p>यो वेबसाइट नेपाली नागरिकहरूलाई सहयोग गर्न बनाइएको हो।</p>
+            <p>This website is made to help Nepali citizens report their problems.</p>
+            <br>
+            <p><strong>Contact:</strong> hamrosamsya@gmail.com</p>
+        </section>
+    </main>
+    
+    <footer>
+        <p>© 2024 नागरिक आवाज | Citizen Voice Nepal</p>
+        <p>🏏 Made with ❤️ for Nepal</p>
+    </footer>
+</body>
+</html>
